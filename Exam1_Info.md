@@ -27,7 +27,7 @@
 
 You should be able to do each of these on your own:
 
-**Preprocessing**
+### **Preprocessing**
 
 - Inspect a table: data types, missing values, duplicate rows, class balance
 - Turn text into numbers (for example a price written as `"$1,299.00"`)
@@ -36,7 +36,7 @@ You should be able to do each of these on your own:
 - Decide which columns cannot be model inputs: IDs, constants, and anything only known **after** the outcome (leakage)
 - One-hot encode a category column
 
-**Classification**
+### **Classification**
 
 - Split with `train_test_split` using `stratify`, and report the baseline
 - Fill missing values **after** the split, using the training rows only
